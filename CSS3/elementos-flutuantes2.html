@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+        
+        #container {
+            background-color: antiquewhite;
+            border: 1px solid red;
+            height: 600px;
+            flex: auto;
+        }
+
+        .conteudo {
+            border: 1px solid yellow;
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            float: left;
+            
+        }
+
+        .conteudo-title {
+            text-align: center;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="conteudo">
+            <div class="conteudo-title">
+                <h4>Primeiro texto</h4>
+            </div>
+            
+            <img src="img/foto1.jpg" alt="">
+        </div>
+        <div class="conteudo">
+            <div class="conteudo-title">
+                <h4>Segundo texto</h4>
+            </div>
+            <a href="">Saiba mais</a>
+            <img src="img/foto2.jpg">
+        </div>
+        <div class="conteudo">
+            <div class="conteudo-title">
+                <h4>Terceiro texto</h4>
+            </div>
+            <a href="">Saiba mais</a>
+            <img src="img/foto3.jpg">
+        </div>
+        <div class="conteudo">
+            <div class="conteudo-title">
+                <h4>Quarto texto</h4>
+            </div>
+            <a href="">Saiba mais</a>
+            <img src="img/foto1.jpg">
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>

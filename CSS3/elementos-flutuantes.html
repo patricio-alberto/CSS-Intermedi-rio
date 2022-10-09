@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div's</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #container {
+            background-color: blue;
+            border: 1px solid yellow;
+        }
+
+        /*Se deixar o container no tamanho fixo, o clear não vai funcionar para expansão da div*/
+   
+        .clear {
+            clear: both;
+        }
+        .conteudo {
+            float: left;
+            border: 1px solid blue;
+            padding: 6px;
+            width: 250px;
+            height: 250px;
+            margin: 10px;
+            background-color: aqua;
+        }
+
+        .conteudo2 {
+            float: left;
+            border: 1px solid blue;
+            padding: 6px;
+            width: 250px;
+            height: 250px;
+            margin: 10px;
+            background-color: red;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="conteudo2">
+            <p>Caixa1</p>
+        </div>
+        <div class="conteudo">
+            <p>Caixa2</p>
+        </div>
+        <div class="conteudo">
+            <p>Caixa3</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
