@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: rgb(228, 223, 223);
+}
+
+#principal {
+    text-align: center;
+    padding: 15px;
+    background-color: orangered;
+}
+
+#titulo, #links {
+    padding: 10px;
+}
+
+#branco {
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: cyan;
+}
+
+#conteudo-principal {
+    border: 1px red;
+    background: white;
+    width: 920px;
+    margin: 0 auto;
+}
+
+a:visited, a:link {
+    padding: 8px;
+}
+
+a:hover {
+    color: #f7b600;
+    background: white;
+}
