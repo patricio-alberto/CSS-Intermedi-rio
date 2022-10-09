@@ -29,11 +29,25 @@ a {
     color: cyan;
 }
 
+
+
 #conteudo-principal {
-    border: 1px red;
-    background: white;
     width: 920px;
     margin: 0 auto;
+}
+
+#area-postagens, #area-lateral {
+    background: blueviolet;
+}
+
+#area-postagens {
+    float: left;
+    width: 660px;
+}
+
+#area-lateral {
+    width: 240;
+    float: right;
 }
 
 a:visited, a:link {
